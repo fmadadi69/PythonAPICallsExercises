@@ -1,10 +1,8 @@
 import docx
-
-# import re
-
 filename = '/Users/apple/Documents/intro.docx'
 new_filename= '/Users/apple/Documents/new_intro.docx'
 
+###################### Method 1 #######################
 # def getText(text_file):
 #     doc = docx.Document(text_file)
 #     fulltext = []
@@ -37,7 +35,7 @@ new_filename= '/Users/apple/Documents/new_intro.docx'
 # my_doc.add_paragraph(new_text)
 # my_doc.save(new_filename)
 
-#####################################################
+#################### Method2 ######################
 doc = docx.Document(filename)
 numbers_done = 0
 
