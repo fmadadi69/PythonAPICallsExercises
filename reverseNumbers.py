@@ -5,7 +5,6 @@ import docx
 filename = '/Users/apple/Documents/intro.docx'
 new_filename= '/Users/apple/Documents/new_intro.docx'
 
-
 # def getText(text_file):
 #     doc = docx.Document(text_file)
 #     fulltext = []
